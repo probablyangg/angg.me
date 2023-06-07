@@ -3,9 +3,12 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-row w-full justify-between p-5 [&>*]:border-b-2">
-    <Link href={"/"} className="pb-2">
-        angg
+    <div className="flex flex-row w-full justify-between p-5">
+    <Link href={"/"} className="pb-2 border-b-2">
+      angg
+    </Link>
+    <Link href={"/music"} className="pb-2">
+      🎧?
     </Link>
   </div>
   )
