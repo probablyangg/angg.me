@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-/* eslint-disable @typescript-eslint/no-unsafe-call */
 import { type NextPage } from "next";
 import { events } from "../EVENTS";
 import { type Event } from "../EVENTS";
