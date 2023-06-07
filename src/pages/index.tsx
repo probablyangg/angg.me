@@ -31,9 +31,13 @@ const Home: NextPage = () => {
             </a>
           </div>
           <div className="flex flex-row w-full gap-3 text-[1.2rem]">
+            <div>
             <Link href={"/timeline"} className="underline underline-offset-8">
               timeline
             </Link>
+            <span>,</span>
+            </div>
+
             <Link href={"/about"} className="underline underline-offset-8">
               about
             </Link>
