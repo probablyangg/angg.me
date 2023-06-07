@@ -1,6 +1,6 @@
 import { type NextPage } from "next";
-import { events } from "../EVENTS";
-import { type Event } from "../EVENTS";
+import { events } from "../data/events";
+import { type Event } from "../data/events";
 import Main from "../layout/Main";
 import { useEffect, useState } from "react";
 
