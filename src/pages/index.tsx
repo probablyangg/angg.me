@@ -18,7 +18,6 @@ const Home: NextPage = () => {
       </Head>
       <Main>
         <div className="flex flex-col gap-3 sm:px-4 sm:py-16">
-          <Image src={Me} alt="pfp" width={220} height={220} className="rounded-full" />
           <div className="sm:text-[3rem] text-3xl font-semibold">
             Hi! i&apos;m Angela 👋
           </div>
@@ -31,12 +30,12 @@ const Home: NextPage = () => {
             </a>
           </div>
           <div className="flex flex-row w-full gap-3 text-[1.2rem]">
-            <div>
+            {/* <div>
             <Link href={"/timeline"} className="underline underline-offset-8">
               timeline
             </Link>
             <span>,</span>
-            </div>
+            </div> */}
 
             <Link href={"/about"} className="underline underline-offset-8">
               about
