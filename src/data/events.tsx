@@ -20,7 +20,7 @@ const allEvents: Event[] = [
         Talk for Kernel in Kernel Block 2 on Patterns of Web3
       </p>
       <p>Delivered alongside the amazing <a href="https://sherifabushadi.com">Sherif Abushadi</a></p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/OkGDuhuiE9w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <iframe src="https://www.youtube.com/embed/OkGDuhuiE9w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>,
     category: "Talk"
   },
@@ -31,7 +31,7 @@ const allEvents: Event[] = [
       <p>
         Podcast with Alisha, for Crypto Native on Learning, Building and Generating ever-evolving NFTs
       </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/GoM1Nk-7kHg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <iframe src="https://www.youtube.com/embed/GoM1Nk-7kHg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>,
     category: "Talk"
   },
@@ -42,7 +42,7 @@ const allEvents: Event[] = [
       <p>
         Panel Discussion: for ETHDenver on Global Adoption - Where are we now?
       </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/qIHX6bXCyJk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <iframe src="https://www.youtube.com/embed/qIHX6bXCyJk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>,
     category: "Talk"
   },
@@ -53,7 +53,7 @@ const allEvents: Event[] = [
       <p>
       Talk: for GeeksForGeeks on Learning to Build Blockchain Applications from Scratch
       </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sXJ2uOC0ZJw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <iframe src="https://www.youtube.com/embed/sXJ2uOC0ZJw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>,
     category: "Talk"
   },
@@ -76,7 +76,7 @@ const allEvents: Event[] = [
       <p>
       Talk: for EthGlobal's ETHOnline on Building for Scale and UX
       </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/5tKzMcflOcY?start=903" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <iframe src="https://www.youtube.com/embed/5tKzMcflOcY?start=903" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>,
     category: "Talk"
   },
@@ -100,7 +100,7 @@ const allEvents: Event[] = [
       Talk: at Namma Blockchain, Building out your first dApp on Matic
       </p>
       <p>Organised by Aicumen Technologies. The talk was a dev-focussed walkthrough of an introduction to Ethereum and development toolings to building a dApp 👼🏼</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Z3TWjkZ77_8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Z3TWjkZ77_8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </div>,
     category: "Talk"
   },
@@ -147,7 +147,7 @@ const allEvents: Event[] = [
       <p>
       Talk: at InOut 6.0, API Demos for Matic's bounties
       </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/kGUM8XhN9Pk?start=763" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <iframe src="https://www.youtube.com/embed/kGUM8XhN9Pk?start=763" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>,
     category: "Talk"
   },
@@ -185,7 +185,7 @@ const allEvents: Event[] = [
       <p>
       Part of Matic Masterclass series. Demonstrates the basics of building out Ethereum applications from scratch.
       </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/QAO7YxF7hSk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <iframe src="https://www.youtube.com/embed/QAO7YxF7hSk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>,
     category: "Talk"
   }

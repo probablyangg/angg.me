@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+iframe {
+  @apply sm:w-[560px] sm:h-[315px]
+}
