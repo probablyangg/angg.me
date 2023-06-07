@@ -17,10 +17,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main>
-        <div className="flex flex-col items-center justify-center gap-2 sm:px-4 sm:py-16">
+        <div className="flex flex-col gap-3 sm:px-4 sm:py-16">
           <Image src={Me} alt="pfp" width={220} height={220} className="rounded-full" />
           <div className="sm:text-[3rem] text-3xl font-semibold">
-            Hi, I&apos;m Angela
+            hi there 👋
           </div>
           <div className="flex flex-row gap-3 text-[1.5rem] w-full">
             <a href="https://twitter.com/anggxyz" target="_blank" className="hover:scale-[1.08] transform transition duration-500" >
