@@ -18,8 +18,8 @@ const Home: NextPage = () => {
       </Head>
       <Main>
         <div className="flex flex-col gap-3 sm:px-4 sm:py-16">
-          <div className="sm:text-[3rem] text-3xl font-semibold">
-            Hi! i&apos;m Angela 👋
+          <div className="sm:text-[2rem] text-xl font-semibold">
+            meandering between several what ifs
           </div>
           <div className="flex flex-row gap-3 text-[1.5rem] w-full">
             <a href="https://twitter.com/anggxyz" target="_blank" className="hover:scale-[1.08] transform transition duration-500" >
