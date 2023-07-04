@@ -30,13 +30,6 @@ const Home: NextPage = () => {
             </a>
           </div>
           <div className="flex flex-row w-full gap-3 text-[1.2rem]">
-            <div>
-            <a href={"https://anggxyz.notion.site/zoned-out-again-3d9e140827f44034b30582e5690c6678?pvs=4"} className="underline underline-offset-8" target="_blank">
-              notes
-            </a>
-            <span>,</span>
-            </div>
-
             <Link href={"/about"} className="underline underline-offset-8">
               about
             </Link>
