@@ -25,7 +25,7 @@ const Home: NextPage = () => {
             <a href="https://twitter.com/anggxyz" target="_blank" className="hover:scale-[1.08] transform transition duration-500" >
               <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="https://github.com/angelagilhotra" target="_blank" className="hover:scale-[1.08] transform transition duration-500" >
+            <a href="https://github.com/anggxyz" target="_blank" className="hover:scale-[1.08] transform transition duration-500" >
             <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
