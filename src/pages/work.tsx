@@ -2,7 +2,7 @@ import Main from "src/layout/Main";
 
 const About = () => {
   return (
-    <Main title="About">
+    <Main title="work stuff">
       <div className="prose text-white my-6 prose-a:text-slate-300 prose-a:underline-offset-8">
         <p>
           Crafting my way through the interwebs of Ethereum and Communities; exploring infrastructure, tooling and relations.
