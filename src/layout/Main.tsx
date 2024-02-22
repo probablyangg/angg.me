@@ -7,7 +7,7 @@ const Navbar = () => {
     <Link href={"/"} className="pb-2 border-b-2">
       angg
     </Link>
-    <Link href={"/music"} className="pb-2">
+    <Link href={"/music"} className="pb-2 text-lg">
       🎧?
     </Link>
   </div>
