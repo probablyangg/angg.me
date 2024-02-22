@@ -7,6 +7,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import Main from "src/layout/Main";
+import { faPenNib } from "@fortawesome/free-solid-svg-icons";
 
 const Home: NextPage = () => {
   return (
@@ -27,6 +28,9 @@ const Home: NextPage = () => {
             </a>
             <a href="https://github.com/anggxyz" target="_blank" className="hover:scale-[1.08] transform transition duration-500" >
             <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a href="https://angg.substack.com" target="_blank" className="hover:scale-[1.08] transform transition duration-500">
+              <FontAwesomeIcon icon={faPenNib} />
             </a>
           </div>
           <div className="flex flex-row w-full gap-3 text-[1.2rem]">
