@@ -22,7 +22,7 @@ const Main = ({ children, title }:{ children: ReactNode, title?: string }) => {
       sm:flex-col
       items-center
       justify-center
-      bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-900 via-gray-800 to-gray-900
+      bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-800 via-gray-900 to-black
       text-white
     ">
       <Navbar />
