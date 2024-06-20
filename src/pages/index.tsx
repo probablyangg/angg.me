@@ -5,7 +5,7 @@ import Me from "public/images/me.jpg";
 // import Astronaut from "public/images/astronaut.jpg";
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import Main from "src/layout/Main";
 import { faPenNib } from "@fortawesome/free-solid-svg-icons";
 
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>angg</title>
+        <title>angg.me</title>
         <meta name="description" content="Angela Gilhotra" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -23,14 +23,17 @@ const Home: NextPage = () => {
             meandering between several what ifs
           </div>
           <div className="flex flex-row gap-3 text-[1.5rem] w-full">
-            <a href="https://twitter.com/anggxyz" target="_blank" className="hover:scale-[1.08] transform transition duration-500" >
+            <a href="https://twitter.com/probablyangg" target="_blank" className="hover:scale-[1.08] transform transition duration-500" >
               <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="https://github.com/anggxyz" target="_blank" className="hover:scale-[1.08] transform transition duration-500" >
+            <a href="https://github.com/probablyangg" target="_blank" className="hover:scale-[1.08] transform transition duration-500" >
             <FontAwesomeIcon icon={faGithub} />
             </a>
             <a href="https://angg.substack.com" target="_blank" className="hover:scale-[1.08] transform transition duration-500">
               <FontAwesomeIcon icon={faPenNib} />
+            </a>
+            <a href="https://t.me/probablyangg" target="_blank" className="hover:scale-[1.08] transform transition duration-500">
+              <FontAwesomeIcon icon={faTelegram} />
             </a>
           </div>
           <div className="flex flex-row w-full gap-3 text-[1.2rem]">
