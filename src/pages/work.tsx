@@ -5,7 +5,7 @@ const About = () => {
     <Main title="work stuff">
       <div className="prose text-white my-6 prose-a:text-slate-300 prose-a:underline-offset-8">
         <p>
-          I currently work as a Developer Relations Lead (it's a team of 1 🕺🕺🕺) with Xion (Burnt) since August 2024.
+          I currently work as a Developer Relations Lead (it's a team of 1 🕺🕺🕺) with <a href="https://xion.burnt.com/" target="_blank">Xion</a> (August 2024 - <i>present</i>).
           <br />
           <br />
           Prior to this, I worked as a Developer Relations Engineer at <a href="https://layerzero.network/" target="_blank">LayerZero Labs</a> (March 2024 - August 2024), freelanced as a Developer Advocate with <a href="https://futureprimitive.xyz/" target="_blank">Future Primitive</a> and <a href="https://www.alchemy.com/" target="_blank">Alchemy</a> roughly between June 2023 and January 2024.
