@@ -9,6 +9,7 @@ const About = () => {
           <br />
           <br />
           Prior to this, I worked as a Developer Relations Engineer at <a href="https://layerzero.network/" target="_blank">LayerZero Labs</a> (March 2024 - August 2024), freelanced as a Developer Advocate with <a href="https://futureprimitive.xyz/" target="_blank">Future Primitive</a> and <a href="https://www.alchemy.com/" target="_blank">Alchemy</a> roughly between June 2023 and January 2024.
+          <br />
           Before getting into the <i>relations</i> aspect of engineering I used to work as a Software Engineer. Have worked at <a href="https://bonfire.xyz" target="_blank">Bonfire</a> (Aug 2021 - April 2023) as Core Software Engineer, as a Special Projects engineer at <a href="https://gitcoin.co" target="_blank">Gitcoin</a> (Oct 2020 - Sep 2021) and Blockchain Platform Engineer and a Dev Advocate at <a href="https://polygon.technology" target="_blank">Polygon</a> (Aug 2019 - Oct 2020).
           <br />
           <br />
