@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="flex flex-row w-full justify-between p-5">
     <Link href={"/"} className="pb-2 border-b-2">
-      angg
+      angela gilhotra
     </Link>
     <Link href={"/music"} className="pb-2 text-lg">
       🎧?
