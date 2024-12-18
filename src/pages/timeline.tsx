@@ -40,9 +40,9 @@ const Timeline: NextPage = () => {
         <span>,</span>
         </div>
         <div>
-        <span className={`${filterBy.musing ? "underline underline-offset-8" : ""}  ${"cursor-pointer"}`} onClick={() => setFilterBy({musing: true})}>
+{/*         <span className={`${filterBy.musing ? "underline underline-offset-8" : ""}  ${"cursor-pointer"}`} onClick={() => setFilterBy({musing: true})}>
           musings
-        </span>
+        </span> */}
         <span>,</span>
         </div>
         <div>
