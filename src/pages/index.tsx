@@ -65,6 +65,7 @@ const Home: NextPage = () => {
             <section>
               <h2 className="text-xl font-semibold mb-4">worked on</h2>
               <ul className="list-disc list-inside space-y-2">
+                <li><a href="https://x.com/crossmint/status/1986473653257539959" target="_blank" className="underline underline-offset-4 hover:text-gray-400">Demo: Crossmint wallets working with Agents exposing paid MCP tools deployed on Cloudflare workers</a></li>
                 <li><a href="https://github.com/crossmint/worldstore-agent" target="_blank" className="underline underline-offset-4 hover:text-gray-400">Crossmint's Worldstore Agent on Base</a></li>
                 <li><a href="https://github.com/kernel-community/convo-app" target="_blank" className="underline underline-offset-4 hover:text-gray-400">Kernel's Community on Convo Cafe</a></li>
                 <li><a href="https://github.com/probablyangg/ohey" target="_blank" className="underline underline-offset-4 hover:text-gray-400">OHey</a>: tiny project I built, haven't been maintaining it</li>
