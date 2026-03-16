@@ -33,8 +33,8 @@ export function getAllNotes(): NoteMeta[] {
       return {
         slug: data.slug || f.replace(/\.md$/, ""),
         title: data.title || f.replace(/\.md$/, ""),
-        date: String(data.date ?? ""),
-        lastModified: data.lastModified ? String(data.lastModified) : undefined,
+        date: data.date ? new Date(data.date).toISOString().slice(0, 10) : "",
+        lastModified: data.lastModified ? new Date(data.lastModified).toISOString().slice(0, 10) : undefined,
         description: data.description,
         tags: data.tags || [],
         author: data.author,
@@ -66,8 +66,8 @@ export async function getNoteBySlug(slug: string): Promise<NoteData | null> {
     return {
       slug: noteSlug,
       title: data.title || noteSlug,
-      date: String(data.date ?? ""),
-      lastModified: data.lastModified ? String(data.lastModified) : undefined,
+      date: data.date ? new Date(data.date).toISOString().slice(0, 10) : "",
+      lastModified: data.lastModified ? new Date(data.lastModified).toISOString().slice(0, 10) : undefined,
       description: data.description,
       tags: data.tags || [],
       author: data.author,

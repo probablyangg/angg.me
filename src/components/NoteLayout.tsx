@@ -42,13 +42,11 @@ export default function NoteLayout({ note }: { note: NoteData }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
 
-        {/* RSS discovery */}
-        <link rel="alternate" type="application/rss+xml" title="Notes RSS" href="/notes.xml" />
       </Head>
 
       <main className="min-h-screen bg-neutral-800 text-gray-200 px-6 py-12 flex justify-center">
         <article className="max-w-2xl w-full prose prose-invert prose-neutral">
-          <nav className="mb-8 text-sm">
+          <nav aria-label="Breadcrumb" className="mb-8 text-sm">
             <Link href="/" className="hover:text-gray-400 transition-colors">
               Home
             </Link>
@@ -61,7 +59,7 @@ export default function NoteLayout({ note }: { note: NoteData }) {
           <header className="mb-8">
             <h1 className="text-2xl font-semibold mb-2">{note.title}</h1>
             <p className="text-sm text-gray-400">
-              {note.date}
+              <time dateTime={note.date}>{note.date}</time>
               {note.author ? ` · ${note.author}` : ""}
             </p>
             {note.tags && note.tags.length > 0 && (
@@ -81,7 +79,7 @@ export default function NoteLayout({ note }: { note: NoteData }) {
           <div dangerouslySetInnerHTML={{ __html: note.contentHtml }} />
 
           <hr className="border-neutral-600 my-8" />
-          <nav className="text-sm">
+          <nav aria-label="Post navigation" className="text-sm">
             <Link href="/notes" className="hover:text-gray-400 transition-colors">
               ← Back to all notes
             </Link>
