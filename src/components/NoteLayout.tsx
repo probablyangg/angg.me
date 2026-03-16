@@ -45,7 +45,7 @@ export default function NoteLayout({ note }: { note: NoteData }) {
       </Head>
 
       <main className="min-h-screen bg-neutral-800 text-gray-200 px-6 py-12 flex justify-center">
-        <article className="max-w-2xl w-full prose prose-invert prose-neutral">
+        <article className="max-w-2xl w-full">
           <nav aria-label="Breadcrumb" className="mb-8 text-sm">
             <Link href="/" className="hover:text-gray-400 transition-colors">
               Home
@@ -57,13 +57,13 @@ export default function NoteLayout({ note }: { note: NoteData }) {
           </nav>
 
           <header className="mb-8">
-            <h1 className="text-2xl font-semibold mb-2">{note.title}</h1>
-            <p className="text-sm text-gray-400">
+            <h1 className="text-3xl font-semibold mb-2">{note.title}</h1>
+            <p className="text-sm text-gray-400 mt-2">
               <time dateTime={note.date}>{note.date}</time>
               {note.author ? ` · ${note.author}` : ""}
             </p>
             {note.tags && note.tags.length > 0 && (
-              <div className="flex gap-2 mt-2 flex-wrap">
+              <div className="flex gap-2 mt-3 flex-wrap">
                 {note.tags.map((tag) => (
                   <span
                     key={tag}
@@ -76,7 +76,7 @@ export default function NoteLayout({ note }: { note: NoteData }) {
             )}
           </header>
 
-          <div dangerouslySetInnerHTML={{ __html: note.contentHtml }} />
+          <div className="prose prose-invert prose-neutral" dangerouslySetInnerHTML={{ __html: note.contentHtml }} />
 
           <hr className="border-neutral-600 my-8" />
           <nav aria-label="Post navigation" className="text-sm">
