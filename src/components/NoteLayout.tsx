@@ -62,18 +62,6 @@ export default function NoteLayout({ note }: { note: NoteData }) {
               <time dateTime={note.date}>{note.date}</time>
               {note.author ? ` · ${note.author}` : ""}
             </p>
-            {note.tags && note.tags.length > 0 && (
-              <div className="flex gap-2 mt-3 flex-wrap">
-                {note.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-xs bg-neutral-700 text-gray-300 px-2 py-0.5 rounded"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            )}
           </header>
 
           <div className="prose prose-invert" dangerouslySetInnerHTML={{ __html: note.contentHtml }} />

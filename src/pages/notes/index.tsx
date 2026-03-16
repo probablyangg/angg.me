@@ -56,15 +56,6 @@ export default function NotesIndex({ notes }: { notes: NoteMeta[] }) {
                       {note.description}
                     </p>
                   )}
-                  {note.tags && note.tags.length > 0 && (
-                    <div className="flex gap-2 mt-2 flex-wrap">
-                      {note.tags.map((t) => (
-                        <span key={t} className="text-xs text-gray-400 bg-neutral-700 px-2 py-0.5 rounded">
-                          #{t}
-                        </span>
-                      ))}
-                    </div>
-                  )}
                 </Link>
               </li>
             ))}
