@@ -76,7 +76,7 @@ export default function NoteLayout({ note }: { note: NoteData }) {
             )}
           </header>
 
-          <div className="prose prose-invert prose-neutral" dangerouslySetInnerHTML={{ __html: note.contentHtml }} />
+          <div className="prose prose-invert" dangerouslySetInnerHTML={{ __html: note.contentHtml }} />
 
           <hr className="border-neutral-600 my-8" />
           <nav aria-label="Post navigation" className="text-sm">
