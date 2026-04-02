@@ -46,9 +46,9 @@ const Home: NextPage = () => {
             <section>
               <h2 className="text-xl font-semibold mb-4">worked with</h2>
               <ul className="list-disc list-inside space-y-2">
-                <li><a href="https://stable.xyz" target="_blank" className="underline underline-offset-4 hover:text-gray-400">Stable</a>: Developer Relations Lead (present)</li>
+                <li><a href="https://stable.xyz" target="_blank" className="underline underline-offset-4 hover:text-gray-400">Stable</a>: Developer Relations Engineer (present)</li>
                 <li><a href="https://crossmint.com" target="_blank" className="underline underline-offset-4 hover:text-gray-400">Crossmint</a>: Developer Relations Engineer</li>
-                <li><a href="https://xion.burnt.com/" target="_blank" className="underline underline-offset-4 hover:text-gray-400">Xion</a>: Developer Relations Lead</li>
+                <li><a href="https://xion.burnt.com/" target="_blank" className="underline underline-offset-4 hover:text-gray-400">Xion</a>: Developer Relations Engineer</li>
                 <li><a href="https://layerzero.network/" target="_blank" className="underline underline-offset-4 hover:text-gray-400">LayerZero Labs</a>: Developer Relations Engineer</li>
                 <li><a href="https://futureprimitive.xyz/" target="_blank" className="underline underline-offset-4 hover:text-gray-400">Future Primitive</a>: Freelance Developer Advocate</li>
                 <li> <a href="https://www.alchemy.com/" target="_blank" className="underline underline-offset-4 hover:text-gray-400">Alchemy</a>: Freelance Developer Advocate</li>
