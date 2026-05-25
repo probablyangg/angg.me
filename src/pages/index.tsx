@@ -34,7 +34,7 @@ const Home: NextPage = () => {
             <section>
               <h2 className="text-xl font-semibold mb-4">Hi! I'm Angela</h2>
               <p>
-                I like <a href="https://github.com/probablyangg" target="_blank" className="underline underline-offset-4 hover:text-gray-400">experimenting</a> and I <a href="https://substack.com/@probablyangg" target="_blank" className="underline underline-offset-4 hover:text-gray-400">write</a> sometimes. Been in crypto since 2018, have always enjoyed a mix of building and sharing knowledge.
+                I like <a href="https://github.com/probablyangg" target="_blank" className="underline underline-offset-4 hover:text-gray-400">experimenting</a> and I <a href="https://paragraph.com/@angg" target="_blank" className="underline underline-offset-4 hover:text-gray-400">write</a> sometimes. Been in crypto since 2018, have always enjoyed a mix of building and sharing knowledge.
               </p>
               <p className="mt-4">
                 Always happy to chat on Telegram (<a href="https://t.me/probablyangg" target="_blank" className="underline underline-offset-4 hover:text-gray-400">@probablyangg</a>) or you can <a href="mailto:angela.gilhotra@gmail.com" className="underline underline-offset-4 hover:text-gray-400">land straight in my inbox</a>
